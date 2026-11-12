@@ -1,7 +1,11 @@
 <?php
 
+use App\Http\Controllers\DaftarMitraController;
 use Illuminate\Support\Facades\Route;
 
+
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('homepage');
 });
+
