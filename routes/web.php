@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\DaftarMitraController;
 use Illuminate\Support\Facades\Route;
 
 
