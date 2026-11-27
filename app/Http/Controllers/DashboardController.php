@@ -12,4 +12,7 @@ class DashboardController extends Controller
     public function pilihanarmada(){
         return view('dashboard.pilihanarmada');
     }
+    public function potential_simulation(){
+        return view('dashboard.potential_simulation');
+    }
 }
