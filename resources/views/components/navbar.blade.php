@@ -43,7 +43,7 @@
                                 Sistem Pengelolaan</a>
                         </li>
                         <li>
-                            <a href="#"
+                            <a href="{{ route('simulation') }}"
                                 class="block py-2 px-3 {{ request()->routeIs('#')?'text-[#122e6d] font-bold':'' }} md:hover:text-[#f58220]">
                                 Simulasi Hasil</a>
                         </li>
